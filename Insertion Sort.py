@@ -9,3 +9,6 @@ def insertionSort(arr):
                 # swaps the two items if they are in the wrong order
                 arr[i], arr[j] = arr[j], arr[i]
 
+    return arr
+
+print(insertionSort([5,3,6,1,4,2]))
